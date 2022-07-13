@@ -13,4 +13,9 @@ const getRandomQuote = () => {
         return Math.floor(Math.random() * array.length);
     };
 
+    let inspiring =inspirationalQuotes[randQuote(inspirationalQuotes)];
+ 
+    let motivational = motivationalQuotes[randQuote(motivationalQuotes)];
+ 
+    let manifesting = manifestingQuotes[randQuote(manifestingQuotes)];
 }
