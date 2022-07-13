@@ -18,4 +18,12 @@ const getRandomQuote = () => {
     let motivational = motivationalQuotes[randQuote(motivationalQuotes)];
  
     let manifesting = manifestingQuotes[randQuote(manifestingQuotes)];
-}
+
+    const intro = "Hello! Are you looking to create a deeper connection with yourself and strengthen your bond with the infinite universe?";
+    console.log(intro);
+ 
+    const outputQuote = `\n If so, you are in the right place! Here are some deep meaningful quotes that might just spark some motivation within you and help you reach your wanted destination in your self discovery journey.
+    \n\n Today's inspiring quote is: ${inspiring} \n\nThe motivational quote is: ${motivational} \n\nand the manifesting quote is: ${manifesting}`;
+        console.log(outputQuote);
+    
+};
