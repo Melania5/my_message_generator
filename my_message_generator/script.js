@@ -9,5 +9,8 @@ const manifestingQuotes = ["Ask for what you want and be prepared to get it.", "
 
 //create function to randomize quotes
 const getRandomQuote = () => {
-    
+    const randQuote = (array) => {
+        return Math.floor(Math.random() * array.length);
+    };
+
 }
