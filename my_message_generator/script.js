@@ -6,3 +6,8 @@ const motivationalQuotes = ["Be the change that you wish to see in the world.", 
  
 //array of manifesting quotes
 const manifestingQuotes = ["Ask for what you want and be prepared to get it.", "What you think, you create. What you feel, you attract. What you imagine, you become.", "Thoughts become things. If you see it in your mind, you will hold it in your hand."];
+
+//create function to randomize quotes
+const getRandomQuote = () => {
+    
+}
