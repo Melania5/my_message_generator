@@ -27,3 +27,5 @@ const getRandomQuote = () => {
         console.log(outputQuote);
     
 };
+
+console.log(getRandomQuote());
